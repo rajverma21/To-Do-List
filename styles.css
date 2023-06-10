@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@550&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2f447e;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #244d7c;
+  box-shadow: 0px 0px 18px #0f2235;
+  border-radius: 15px;
+}
+
+input {
+  height: 5.3vmin;
+  width: 45vmin;
+  border-radius: 7px;
+  border: none;
+  padding: 0px 10px;
+  box-shadow: 0px 0px 12px rgb(75, 70, 60);
+}
+
+#btn {
+  height: 5.3vmin;
+  width: 10vmin;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px rgb(88, 82, 70);
+  font-size: 15.5px;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+
+.remove {
+  height: 3.2vmin;
+  width: 13vmin;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px rgb(88, 82, 70);
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vmin;
+  width: 65vmin;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffecd6;
+  border-radius: 10px;
+  font-family: "Kablammo", cursive;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 9px;
+  padding: 7px;
+  height: 70vmin;
+  width: 65.6vmin;
+  background-color: rgb(186, 175, 162);
+  border-radius: 10px;
+}
+
+.inserted_element {
+  height: 3vmin;
+  display: flex;
+  justify-content: space-between;
+  width: 57.5vmin;
+  background-color: black;
+  color: white;
+  margin: 7px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+.get_input {
+  display: flex;
+  width: 65vmin;
+  justify-content: space-evenly;
+  margin: 11px;
+}
